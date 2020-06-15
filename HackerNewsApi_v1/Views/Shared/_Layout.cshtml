@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header class="container-fluid">
+        <h2 class="heading">Hacker News Top Stories</h2>
+        <div>
+            <input type="text" placeholder="Search..." id="text-search" />
+            <button id="button-search" >Search</button>
+        </div>
+    </header>
+    <div class="container body-content">
+
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Alex Sheinton Coding Excercise for Nextech</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript" src="@Url.Content("/Scripts/site.js")"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

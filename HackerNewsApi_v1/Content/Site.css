@@ -1,0 +1,79 @@
+﻿body {
+    /*padding-top: 50px;*/
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-top: 170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: lightgray;
+}
+
+.title {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.author {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: black;
+}
+
+span {
+    padding: 0, 0 ,0 ,5px;
+}
+
+header {
+    text-align: center;
+    background-color: gray;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+    z-index: 1;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center
+}
+
+.no-results {
+    text-align: center
+}
+
+.row {
+    margin-top: -10px;
+}
+
+.server-error {
+    color: red;
+}

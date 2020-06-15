@@ -1,0 +1,4 @@
+<Playlist Version="1.0">
+<Add Test="HackerNewsApi_v1.Tests.Controllers.HackerNewsControllerTest.Index" />
+<Add Test="HackerNewsApi_v1.Tests.Controllers.HackerNewsControllerTest.GetArticleDetail" />
+</Playlist>
